@@ -1,7 +1,7 @@
 # Custom Cryptocurrency using Solidity
 
 I provided three approaches for creating your own cryptocurrency on the Ethereum blockchain:
-- A really **simple** approach with a few lines of _solidity_ source code with the following specifications
+- A really **simple** approach with a few lines of _solidity_ source code with the [following specifications][1]
 - A good implementation based on [ERC-20 standards][0]
 - A smart contract that is inherited from the `ERC20` smart contract
 
@@ -37,3 +37,4 @@ event Approval(address indexed _owner, address indexed _spender, uint256 _value)
 
 
 [0]: https://ethereum.org/en/developers/docs/standards/tokens/erc-20/
+[1]: https://github.com/triggergroup/Custom-Cryptocurrency/blob/main/README.md#simple-approach-specifications
