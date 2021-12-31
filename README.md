@@ -1,6 +1,6 @@
 # Custom Cryptocurrency using Solidity
 
-This is a really **simple** _solidity_ source code for creating your own custom cryptocurrency using _ERC20_ on blockchain.
+This is a really **simple** _solidity_ source code for creating your own custom cryptocurrency on ethereum blockchain.
 
 ## Specifications
 <ul>
