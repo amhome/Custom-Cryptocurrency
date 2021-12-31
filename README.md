@@ -3,7 +3,7 @@
 I provided two approach for creating your own cryptocurrency on the Ethereum blockcahin:
 - A really **simple** approach with a few lines of _solidity_ source code
 
-According to ERC-20 standards, if a smart contract  implements the following **methods** and **events** it can be called an _ERC-20_ Token Contract and, once deployed, it will be responsible to keep track of the created tokens on Ethereum :
+According to [ERC-20 standards][https://ethereum.org/en/developers/docs/standards/tokens/erc-20/], if a smart contract  implements the following **methods** and **events** it can be called an _ERC-20_ Token Contract and, once deployed, it will be responsible to keep track of the created tokens on Ethereum :
 
 ### Methods
 
@@ -24,10 +24,9 @@ event Approval(address indexed _owner, address indexed _spender, uint256 _value)
 ```
 
 
-## Specifications
-<ul>
-  <li>No inheretance from <code>ERC20</code> smart contract</li>
-  <li>The contract allow its creator (deployer) to create new coins <b>only</b></li>
-  <li>Anyone can send coins to the others using and ethereum keypair</li>
-  <li>It checks the sender balance before sending the coins</li>
-</ul>
+## Simple Approach Specifications
+
+- No inheretance from `ERC20` smart contract
+- The contract allow its creator (deployer) to create new coins **only**
+- Anyone can send coins to the others using and ethereum keypair
+- It checks the sender balance before sending the coins
