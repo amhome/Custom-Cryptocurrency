@@ -3,7 +3,7 @@
 I provided three approaches for creating your own cryptocurrency on the Ethereum blockchain:
 - A really **simple** approach with a few lines of _solidity_ source code
 - A good implementation based on [ERC-20 standards][0]
-- A smart contract that is inherited from the `ERC-20` smart contract
+- A smart contract that is inherited from the `ERC20` smart contract
 
 ## Background
 
