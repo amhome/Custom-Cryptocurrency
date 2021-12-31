@@ -1,8 +1,9 @@
 # Custom Cryptocurrency using Solidity
 
-I provided two approach for creating your own cryptocurrency on the Ethereum blockcahin:
+I provided three approaches for creating your own cryptocurrency on the Ethereum blockchain:
 - A really **simple** approach with a few lines of _solidity_ source code
 - A good implementation based on [ERC-20 standards][0]
+- A inheritance from the ERC-20 smart contract
 
 ## Background
 
