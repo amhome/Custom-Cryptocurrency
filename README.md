@@ -1,6 +1,8 @@
 # Custom Cryptocurrency using Solidity
 
-This is a really **simple** _solidity_ source code for creating your own custom cryptocurrency on the Ethereum blockchain. According to ERC-20 standards, if a smart contract  implements the following methods and events it can be called an ERC-20 Token Contract and, once deployed, it will be responsible to keep track of the created tokens on Ethereum :
+This is a really **simple** _solidity_ source code for creating your own custom cryptocurrency on the Ethereum blockchain.
+
+According to ERC-20 standards, if a smart contract  implements the following methods and events it can be called an ERC-20 Token Contract and, once deployed, it will be responsible to keep track of the created tokens on Ethereum :
 
 ### Methods
 
@@ -12,6 +14,14 @@ function totalSupply() public view returns (uint256)
 function balanceOf(address _owner) public view returns (uint256 balance)
 function transfer(address _to, uint256 _value) public returns (bool success)
 ```
+
+### Events
+
+```solidity
+event Transfer(address indexed _from, address indexed _to, uint256 _value)
+event Approval(address indexed _owner, address indexed _spender, uint256 _value)
+```
+
 
 ## Specifications
 <ul>
