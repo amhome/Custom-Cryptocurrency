@@ -2,7 +2,7 @@
 
 This is a really **simple** _solidity_ source code for creating your own custom cryptocurrency on the Ethereum blockchain.
 
-According to ERC-20 standards, if a smart contract  implements the following methods and events it can be called an ERC-20 Token Contract and, once deployed, it will be responsible to keep track of the created tokens on Ethereum :
+According to ERC-20 standards, if a smart contract  implements the following **methods** and **events** it can be called an _ERC-20_ Token Contract and, once deployed, it will be responsible to keep track of the created tokens on Ethereum :
 
 ### Methods
 
