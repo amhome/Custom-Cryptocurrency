@@ -1,7 +1,7 @@
 # Custom Cryptocurrency using Solidity
 
 I provided three approaches for creating your own cryptocurrency on the Ethereum blockchain:
-- A really **simple** approach with a few lines of _solidity_ source code
+- A really **simple** approach with a few lines of _solidity_ source code with the following specifications
 - A good implementation based on [ERC-20 standards][0]
 - A smart contract that is inherited from the `ERC20` smart contract
 
@@ -30,11 +30,10 @@ event Approval(address indexed _owner, address indexed _spender, uint256 _value)
 
 ## Simple Approach Specifications
 
-- No inheretance from `ERC20` smart contract
-- The contract allow its creator (deployer) to create new coins **only**
+- No inheritance from any other smart contracts like `ERC20`
+- The creator (deployer) is the **only** one that can create new coins
+- It defines an unlimited number of coins
 - Anyone can send coins to the others using and ethereum keypair
-- It checks the sender balance before sending the coins
-- Unlimited number of coins
 
 
 [0]: https://ethereum.org/en/developers/docs/standards/tokens/erc-20/
